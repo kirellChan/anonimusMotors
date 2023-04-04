@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Brancoper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Anonimus Motors</title>
+</head>
+<body>
+
+<!-- navbar -->
+<ul class="nav nav-pills">
+  <figure>
+    <div class="crias">
+      <div class="icone01">
+        <a href="index.php">
+     <img class = "icone02" src="imagens/test01.png" alt="">
+     </a>
+  </figure>
+  <li class="nav-item-dropdown">
+      <a id="sexo" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="catalogo.php">Catálogo</a></li>
+        <li><a class="dropdown-item" href="suporte.php">Suporte</a></li>
+        <li><a class="dropdown-item" href="parceiros.php">Parceiros</a></li>
+        <li><a class="dropdown-item" href="index.php">Pagina Inicial</a></li>
+      </ul>
+    </li>
+    </form>
+  </div> 
+</ul>
+</div>   
+ 
+  </div>
+</ul>
+</div>
+<!-- carrosel -->
+<div class = "carrosel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="Pbmw2.php" class="carousel-text"></a>
+            <img src="imagens/zyro-image (1).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/zyro-image (3).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/zyro-image (4).png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+<!-- Titulo1 -->
+<div class="container">
+<h2 class="carrinhos">Veículos em Destaque</h2>
+<br>
+</div>
+<!-- cards -->
+
+<div class="row" class="col-3" class="cardi">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imagens/thisismoderfucksupra.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Supra MK5
+        </h5>
+        <p class="card-text">HP: 344 cv
+          <br> Torque: 43,6 kgfm
+          <br> Velocidade máxima: 250 km/h
+          <br> Preço: R$500.000.00</p>
+          <br>
+          <p class="disp">Cores Disponiveis</p>
+          <select name="car" id="car">
+              <option value="Preto">Preto</option>
+              <option value="Branco">Branco</option>
+              <option value="Vermelho">Prata</option>
+            </select>
+            <br>
+            <br>
+        <a href="Psupra.php" class="btn btn-dark">Saiba Mais  >
+        </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imagens/mercedes0111.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Mercedes-Maybach</h5>
+        <p class="card-text">HP: 630 cv 
+          <br> Torque: 51,3 kgfm
+          <br> Velocidade máxima: 300km/h
+          <br> Preço: R$5.000.000.00 </p>
+          <br>
+          <p class="disp">Cores Disponiveis</p>
+          <select name="car" id="car">
+              <option value="Preto">Preto</option>
+              <option value="Branco">Branco</option>
+              <option value="Vermelho">Prata</option>
+            </select>
+            <br>
+            <br>
+        <a href="Pmercedes.php" class="btn btn-dark">Saiba Mais  >
+        </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imagens/lambo01.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Lamborghini Huracan
+        </h5>
+        <p class="card-text">HP: 640 cv
+          <br> Torque: 60,0 kgfm
+          <br> Velocidade máxima: 325 km/h
+          <br> Preço: R$2.300.000.00</p>
+          <br>
+          <p class="disp">Cores Disponiveis</p>
+          <select name="car" id="car">
+              <option value="Preto">Preto</option>
+              <option value="Amarelo">Amarelo</option>
+            </select>
+            <br>
+            <br>
+        <a href="Plambo.php" class="btn btn-dark">Saiba Mais  >
+        </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imagens/civic1.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Honda Civic 2021
+        </h5>
+        <p class="card-text">HP: 173 cv
+          <br> Torque: 22,4 kgfm
+          <br> Velocidade máxima: 150km/h
+          <br> Preço: R$120.000.00</p>
+          <br>
+          <p class="disp">Cores Disponiveis</p>
+          <select name="car" id="car">
+              <option value="Preto">Preto</option>
+              <option value="Branco">Branco</option>
+              <option value="Vermelho">Prata</option>
+            </select>
+            <br>
+            <br>
+        <a href="Pcivic.php" class="btn btn-dark">Saiba Mais  >
+        </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imagens/bmw1.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Bmw M5</h5>
+        <p class="card-text">HP: 625 cv
+
+          <br> Torque: 76,5 kgfm
+          <br> Velocidade máxima: 305 km/h
+          <br> Preço: R$700.000.00</p>
+          <br>
+          <p class="disp">Cores Disponiveis</p>
+          <select name="car" id="car">
+              <option value="Preto">Preto</option>
+              <option value="Branco">Branco</option>
+              <option value="Vermelho">Prata</option>
+              <option value="Amarelo">Amarelo</option>
+            </select>
+            <br>
+            <br>
+        <a href="Pbmw1.php" class="btn btn-dark">Saiba Mais  >
+        </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imagens/bmw0222.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">BMW 320i</h5>
+        <p class="card-text">HP: 184 cv
+          <br> Torque: 30,6 kgfm 
+          <br> Velocidade máxima: 240 km/h
+          <br> Preço: R$360.000.00</p>
+          <br>
+          <p class="disp">Cores Disponiveis</p>
+        </p>
+        <select name="car" id="car">
+            <option value="Preto">Preto</option>
+            <option value="Branco">Branco</option>
+            <option value="Vermelho">Prata</option>
+            <option value="Amarelo">Amarelo</option>
+          </select>
+          <br>
+          <br>
+        <a href="Pbmw2.php" class="btn btn-dark">Saiba Mais  >
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Historia -->
+<br>
+<br>
+<div class="container">
+<h2 class="carrinhos">Sobre Nós</h2>
+<br>
+<section>
+<div>
+  </div>
+<p class="texto01">Em 2021, é inaugurada a primeira fábrica da Anonimus Motors. Dez anos depois, uma família de descendentes africanos inaugura, em Guaratinguetá, a Anonimus Veículos, uma concessionária Anonimus Motors que, assim como a montadora, trabalha com dedicação, honestidade, respeito ao consumidor, excelência na qualidade e, principalmente, paixão pelo que faz.
+  Com o sucesso de vendas, a Anonimus foi crescendo e evoluindo junto com a Anonimus, em 2022, inaugura sua segunda loja, dessa vez em Cruzeiro. Com isso, o que era uma empresa familiar torna-se uma das mais respeitadas redes de concessionárias Anonimus do Vale do Paraíba.
+  Hoje, a Anonimus Motors é líder de vendas no Brasil pela nona vez consecutiva e a Anonimus Veículos não para de crescer, oferecendo veículos 0 km e seminovos de todas as marcas e garantindo aos clientes um atendimento diferenciado antes, durante e após a venda.
+  Além disso, a Anonimus possui os melhores preços do mercado, oficina especializada, mecânicos treinados pela fábrica e infraestrutura completa para cuidar do seu veiculo.</p>
+</section>
+</div>
+<br>
+<div class="container">
+<h2 class = "carrinhos">Nossos Clientes</h2>
+</div>
+<br>
+<br>
+
+<!-- avaliação -->
+
+<div class="avaliacao">
+<div class="showcase-sumario">
+  <div class="showcase3-sumario-content">
+      <div class="block-sumario3">
+          
+          <img class ="chefe-3" src="imagens/estranho.jpg" alt="">
+          <img src="" alt="">
+          <p class="chefe-4">Tive a minha primeira oportunidade de comprar meu carro, adorei ele !!!!</p>
+          <p class="chefe-5">Marlon Ratozo</p>
+      </a>
+      </div>
+      <div class="block-sumario3">
+          <img class ="chefe-3" src="imagens/virgem.jpg" alt="">
+          <img src="" alt="">
+          <p class="chefe-4">Atendimento Nota 100000000 !!!!! super recomendo!!!!!</p>
+          <p class="chefe-5">Elton</p>
+
+      </div>
+      <br>
+      <br>
+      <div class="block-sumario3">
+          <img class ="chefe-3" src="imagens/30 TB.jpg" alt="">
+          <img src="" alt="">
+          <p class="chefe-4">Adorei a ideia do site, utilizei e amei, tirando o atendimento que é nota 10000!!!</p>
+          <p class="chefe-5">Zé Paulo</p>
+
+      </div>
+      <div class="block-sumario3">
+          <img class ="chefe-3" src="imagens/chad.jpg" alt="">
+          <img src="" alt="">
+          <p class="chefe-4">Quero deixar aqui minha satisfação com os atendentes, excelente atendimento, envio das informações em tempo real !!!!</p>
+          <p class="chefe-5">Chad Edits</p>
+          
+
+      </div>
+      <div class="block-sumario3">
+        <img class ="chefe-3" src="imagens/narigudo.jpg" alt="">
+        <img src="" alt="">
+        <p class="chefe-4">Foi muito bom fazer o pedido com vocês,a equipe me deu atenção impar.Espero que continuem assim</p>
+        <p class="chefe-5">Pablo</p>
+
+    </div>
+    <div class="block-sumario3">
+      <img class ="chefe-3" src="imagens/Thiago popozuda.jpg" alt="">
+      <img src="" alt="">
+      <p class="chefe-4">Encontrei vocês na internet, por desespero de achar um veiculo bom e fiquei extasiado com o atendimento... vcs estão de parabéns 👏👏👏 </p>
+      <p class="chefe-5">Thiago</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  <br>
+  <br>
+  <div class="container">
+    <h2></h2>
+  </div>
+<!-- Footer -->
+<div class="footer">
+        <div class="socials">
+        </div>
+        <br>
+        <p class="footer-rights">© 2022 Anonimus Motors. <br> Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos nos EUA e em outros países.</p>
+        <img class="bolso-footer" src="imagens/image-removebg-preview.png" alt="">
+    </div>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+</html>
